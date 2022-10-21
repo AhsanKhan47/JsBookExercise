@@ -1,0 +1,11 @@
+{
+  "name": "chap_3",
+  "version": "1.0.0",
+  "description": "It include chapter 3 exe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ahsan khan",
+  "license": "ISC"
+}
