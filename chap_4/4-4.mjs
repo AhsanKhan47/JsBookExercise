@@ -1,28 +1,27 @@
 import PromptSync from 'prompt-sync';
 let prompt = PromptSync();
 
-
-let guessNo = Number(prompt("Guess the number between 0-5"));
+let guessNo = Number(prompt("Guess the number between 0-3"));
 
 let randomNumber = Math.random();
-randomNumber = randomNumber * 5;
+randomNumber = randomNumber * 3;
 randomNumber = Math.floor(randomNumber)
 // console.log(randomNumber)
-switch(randomNumber){
-    case 0:
+switch(guessNo){
+    case randomNumber:
     console.log("Correct");
     break; 
     
-    case 1:
-    console.log("Correct");
-    break; 
+    // case 1:
+    // console.log("Correct");
+    // break; 
 
-    case 5:
-    console.log("Correct");
-    break; 
+    // case 2:
+    // console.log("Correct");
+    // break; 
     default:
         
-    console.log("guessed number out of range")
+    console.log("try again")
     break;
 }
 console.log(`Hey, The number you entered is ${guessNo} the correct answer is ${randomNumber}`);
