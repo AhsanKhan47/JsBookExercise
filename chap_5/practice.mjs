@@ -13,7 +13,7 @@ let notFound = true;
 
 
 //    Find method find the Item in array and return it
-let findFalco = mc.find(f => f === "Falco")
+let findFalco = mc.find((f) => f === "Falco")
 console.log(findFalco)
 
 // includes method find the item and return boolean  value
@@ -33,3 +33,24 @@ console.log(checkMikasa)
 mc.find((value, index) => {
     console.log("Visited index ", index, " with value ", value);
   });
+
+
+  let chainsawMan = {
+    name : "chainsaw",
+    type : "devil",
+    nature : "baka",
+ 
+}
+
+
+for(let temp3 in arr){
+  console.log()
+}
+
+
+
+
+
+for(let temp in chainsawMan){
+  console.log()
+}

@@ -1,0 +1,22 @@
+{
+  "name": "jsbookexercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhsanKhan47/JsBookExercise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AhsanKhan47/JsBookExercise/issues"
+  },
+  "homepage": "https://github.com/AhsanKhan47/JsBookExercise#readme",
+  "dependencies": {
+    "random-int": "^3.0.0"
+  }
+}
