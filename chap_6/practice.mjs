@@ -46,3 +46,33 @@ function add(a, b) {
 let addNm = add(3,3)
 console.log(addNm)
 
+
+// function variable
+// let hi = (a) => {
+//     console.log(a)
+
+// }
+
+// hi("hiii")
+
+
+// var scope 
+
+//This time, we won't get an error. When we use a var variable before the define
+// statement, we simply get undefined. This is due to a phenomenon called hoisting,
+// which means using a var variable before it's been declared results in the variable
+// being undefined rather than giving a ReferenceError
+
+// function doingStuff() {
+//     if (true) {
+//     console.log(x);
+//     var x = "local";
+//     }
+//     }
+//     doingStuff();s
+
+
+// IIFE 
+
+let x = ()=> console.log("heyyy")
+x()
